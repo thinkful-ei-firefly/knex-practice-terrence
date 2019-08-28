@@ -40,7 +40,7 @@ paginateItems(2);
 
 function productsAddedDaysAgo(daysAgo) {
   knexInstance
-    .select('id', 'name', 'price', 'date_added', 'checked', 'category')
+    .select('shopping_item_id', 'name', 'price', 'date_added', 'checked', 'category')
     .from('shopping_list')
     .where(
       'date_added',
