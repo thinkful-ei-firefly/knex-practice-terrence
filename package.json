@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
-    "start": "node src/practice.js",
+    "start": "node src/blogful.js",
     "predeploy": "npm audit",
     "deploy": "git push heroku master"
   },
@@ -25,6 +25,7 @@
     "chai": "^4.2.0",
     "eslint": "^6.2.1",
     "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-react": "^7.14.3",
     "mocha": "^6.2.0",
     "nodemon": "^1.19.1",
     "supertest": "^4.0.2"
